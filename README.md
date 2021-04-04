@@ -33,7 +33,7 @@ You can find latest information and calculation from my app,
 https://play.google.com/store/apps/details?id=com.licexicel.MapleAssist
 
 
-This repo contains two scrpits
+This repo contains two scripts
 
 1.CalEquip.cs
 
@@ -41,7 +41,7 @@ For calculations.
 
 With scroll, flame, star, float Values.
 
-Steps are show by order in scrpit.
+Steps are show by order in script.
 
 Or More Details on 
 
