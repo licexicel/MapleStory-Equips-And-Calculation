@@ -10,6 +10,8 @@
 
 以後可以輸出json看各位想對裝備做什麼處理都行。
 
+新增卷軸分析(2021.4.19)
+
 有關新楓之谷的資訊統整，
 
 請參閱我製作的APP
@@ -22,9 +24,9 @@ This is an intergration of equip's details and calculataion for TMS,
 
 you can use whatever you want. 
 
-With 503 Common Equips in it.
+With 503 common equips in it.
 
-A total Equip Set calculation System is on schedule,
+A total equip set calculation System is on schedule,
 
 the data structure will not change in the near future.
 
@@ -37,20 +39,29 @@ This repo contains two scripts
 
 1.CalEquip.cs
 
-For calculations.
+With two type calculations.
 
-With scroll, flame, star, float Values.
+First,
+
+With scroll, flame, star, float values.
 
 Steps are show by order in script.
 
-Or More Details on 
+Or more details on 
 
 https://strategywiki.org/wiki/MapleStory/Spell_Trace_and_Star_Force
+
+Second,
+
+Scroll Analyze Sysyem,
+
+seems no error report from user?
+
 
 
 2.EquipmentDetails.cs
 
-503 Equips' Details with Class EquipmentDetails.
+503 equips' details with class EquipmentDetails.
 
 In EquipmentDetails,
 
@@ -61,7 +72,7 @@ Some Special Parameter
 
 1.EquipType
 
-  Correspond to Equip shown in MapleStory,
+  Correspond to equip shown in MapleStory,
   
   From left to right, From up to down.
   
@@ -141,14 +152,14 @@ Some Special Parameter
   
   A. 108 means Eighth Equip Type / 18 means Eighteen Sets effect(99 is Lucky Equip) / 07 means Seventh Equip of the Set.
   
-  B. Equip without Set Effect would only Has Three Code. 101 means its Equip Type is ring.
+  B. Equip without set effect would only has three code. 101 means its equip type is ring.
    
    
 4.ScrollList
 
-  Scroll Type is set as "int" Type
+  Scroll type is set as "int" type
   
-  Type 1~6 is TMS Only
+  Type 1~6 is TMS only
   
   // 1 = 極電     /  2 =  Red    /  3 =  X      /  4 =  V       /  5 = 究極的黑暗 /　6 = Honor(榮耀) Honor is not in this calculation. 
   
